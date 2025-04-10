@@ -53,7 +53,7 @@ class _UserFinderPageState extends State<UserFinderPage> with SingleTickerProvid
     final id = _controller.text.trim();
     if (id.isEmpty || int.tryParse(id) == null || int.parse(id) < 1 || int.parse(id) > 12) {
       setState(() {
-        _error = 'Insira um ID válido (1 a 12)!';
+        _error = 'Usuário não encontrado!';
         _isLoading = false;
       });
       return;

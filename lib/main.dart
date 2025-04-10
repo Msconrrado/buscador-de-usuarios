@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:user_finder_app/lib/screens/user_finder_page.dart';
-
+import 'screens/user_finder_page.dart'; 
 
 void main() {
   runApp(const BuscadorDeUsuariosApp());
